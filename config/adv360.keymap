@@ -72,11 +72,11 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL     &kp N1    &kp N2     &kp N3   &kp N4     &kp N5 &tog 1                                                            &mo 3         &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB       &kp Q     &kp W      &kp F    &kp P      &kp G  &macro_command_c                                                  &macro_logout &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
-        &mt LCTRL ESC &kp A     &kp R      &kp S    &kp T      &kp D  &macro_command_v &kp LCTRL &kp LGUI &kp LALT  &kp RCTRL           &kp LG(LALT)     &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
-        &kp LSHFT     &kp Z     &kp X      &kp C    &kp V      &kp B                             &kp HOME &kp PG_UP                                   &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2         &kp GRAVE &caps_word &kp LEFT &kp RIGHT                 &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp SPACE                      &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &kp EQUAL     &kp N1    &kp N2     &kp N3   &kp N4     &kp N5 &tog 1                                                                          &mo 3         &kp N6 &kp N7    &kp N8    &kp N9   &kp N0   &kp MINUS
+        &kp TAB       &kp Q     &kp W      &kp F    &kp P      &kp G  &macro_command_c                                                                &macro_logout &kp J  &kp L     &kp U     &kp Y    &kp SEMI &kp BSLH
+        &mt LCTRL ESC &kp A     &kp R      &kp S    &kp T      &kp D  &macro_command_v &mt LCTRL ESC &kp LGUI        &kp LALT         &mt RCTRL ESC   &kp LG(LALT)  &kp H  &kp N     &kp E     &kp I    &kp O    &kp SQT
+        &kp LSHFT     &kp Z     &kp X      &kp C    &kp V      &kp B                                 &mt LSHIFT HOME &mt RSHIFT PG_UP                               &kp K  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+        &mo 2         &kp GRAVE &caps_word &kp LEFT &kp RIGHT                 &kp BSPC &kp DEL       &mt LSHIFT END  &mt RSHIFT PG_DN &kp ENTER &kp SPACE           &kp UP &kp DOWN  &kp LBKT &kp RBKT  &mo 2
       >;
     };
     keypad {

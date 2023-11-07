@@ -1,5 +1,25 @@
 # Kinesis Advantage 360 Pro ZMK Config
 
+## Current Keymaps
+
+Left:
+
+- `Esc` on 5th index is: `Esc` (tap) and left `Ctrl` (hold)
+- `Caps` is caps_word
+- `Esc` on thumb is: `Esc` (tap) and left `Ctrl` (hold)
+- `Home` on thumb is: `Home` (tap) and left `Shift` (hold)
+- `End` on thumb is: `End` (tap) and left `Shift` (hold)
+- Macro `1`: `Command` + `c` (copy)
+- Macro `2`: `Command` + `v` (paste)
+
+Right:
+
+- `Esc` on thumb is: `Esc` (tap) and right `Ctrl` (hold)
+- `PageUp` on thumb is: `PageUp` (tap) and right `Shift` (hold)
+- `PageDown` on thumb is: `PageDown` (tap) and right `Shift` (hold)
+- Macro `3`: `Command` + `Ctrl` + `q` (lock screen)
+- Macro `4`: `Command` + `left Alt` (Rectangle screen)
+
 ## Modifying the keymap
 
 [The ZMK documentation](https://zmk.dev/docs) covers both basic and advanced functionality and has a table of OS compatibility for keycodes. Please note that the RGB Underglow, Backlight and Power Management sections are not relevant to the Advantage 360 Pro's custom ZMK fork. For more information see [this note](#note)
