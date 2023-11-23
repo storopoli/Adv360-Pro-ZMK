@@ -90,11 +90,11 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL     &kp N1    &kp N2     &kp N3   &kp N4     &kp N5 &tog 1                                                                                 &mo 3         &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB       &kp Q     &kp W      &kp F    &kp P      &kp G  &macro_command_c                                                                       &macro_logout &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
-        &at LCTRL ESC &kp A     &kp R      &kp S    &kp T      &kp D  &macro_command_v                  &kp ESC &kp LGUI &kp LALT  &kp ESC                   &kp LG(LALT)  &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
-        &kp LSHFT     &kp Z     &kp X      &kp C    &kp V      &kp B                                            &kp HOME &kp PG_UP                                         &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2         &kp GRAVE &caps_word &kp LEFT &kp RIGHT                          &at LSHIFT BSPC  &kp DEL &kp END  &kp PG_DN &kp ENTER &at LCTRL SPACE                      &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &kp EQUAL     &kp N1    &kp N2     &kp N3   &kp N4     &kp N5 &tog 1                                                                                      &mo 3         &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+        &kp TAB       &kp Q     &kp W      &kp F    &kp P      &kp G  &macro_command_c                                                                            &macro_logout &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
+        &at LCTRL ESC &kp A     &kp R      &kp S    &kp T      &kp D  &macro_command_v                  &kp ESC      &kp LGUI &kp LALT  &kp ESC                   &kp LG(LALT)  &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
+        &kp LSHFT     &kp Z     &kp X      &kp C    &kp V      &kp B                                                 &kp HOME &kp PG_UP                                         &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+        &mo 2         &kp GRAVE &caps_word &kp LEFT &kp RIGHT                          &at LSHIFT BSPC  &at LGUI DEL &kp END  &kp PG_DN &at LALT ENTER &at LCTRL SPACE          &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
