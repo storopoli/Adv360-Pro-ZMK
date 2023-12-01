@@ -8,6 +8,7 @@ Left:
 - `Delete` on thumb is: `Delete` (tap) and left `GUI` (hold)
 - `Esc` on 5th index is: `Esc` (tap) and left `Ctrl` (hold)
 - `Caps` is caps_word
+- `Esc` on thumb is: `Esc` (tap) and left `Alt` (hold)
 - Macro `1`: `Command` + `c` (copy)
 - Macro `2`: `Command` + `v` (paste)
 
@@ -15,6 +16,7 @@ Right:
 
 - `Space` on thumb is: `Space` (tap) and left `Ctrl` (hold)
 - `Enter` on thumb is: `Enter` (tap) and left `Alt` (hold)
+- `Esc` on thumb is: `Esc` (tap) and right `Alt` (hold)
 - Macro `3`: `Command` + `Ctrl` + `q` (lock screen)
 - Macro `4`: `Command` + left `Alt` (Rectangle screen)
 
