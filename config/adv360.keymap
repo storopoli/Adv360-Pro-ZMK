@@ -71,8 +71,8 @@
     default_layer {
       bindings = <
         &kp EQUAL     &kp N1    &kp N2     &kp N3   &kp N4     &kp N5 &tog 2                                                                                    &mo 4         &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB       &kp Q     &kp W      &kp F    &kp P      &kp G  &kp LS(C)                                                                                 &macro_logout &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
-        &at LCTRL ESC &kp A     &kp R      &kp S    &kp T      &kp D  &kp LS(V)                  &at LALT ESC &kp LGUI &kp LALT  &at RALT ESC                   &tog 1        &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
+        &kp TAB       &kp Q     &kp W      &kp F    &kp P      &kp G  &kp LC(C)                                                                                 &macro_logout &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
+        &at LCTRL ESC &kp A     &kp R      &kp S    &kp T      &kp D  &kp LC(V)                  &at LALT ESC &kp LGUI &kp LALT  &at RALT ESC                   &tog 1        &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
         &kp LSHFT     &kp Z     &kp X      &kp C    &kp V      &kp B                                          &kp HOME &kp PG_UP                                              &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
         &mo 3         &kp GRAVE &caps_word &kp LEFT &kp RIGHT                   &at LSHIFT BSPC  &at LGUI DEL &kp END  &kp PG_DN &at LALT ENTER &at LCTRL SPACE                      &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
