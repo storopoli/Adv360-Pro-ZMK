@@ -63,6 +63,16 @@
             , <&macro_release &kp LGUI &kp LSHIFT>
             ;
       };
+      macro_terminal: macro_terminal {
+        compatible = "zmk,behavior-macro";
+        label = "macro_terminal";
+        #binding-cells = <0>;
+        bindings
+            = <&macro_press &kp LCTRL &kp LALT>
+            , <&macro_tap &kp B>
+            , <&macro_release &kp LCTRL &kp LALT>
+            ;
+      };
     };
 
   keymap {
@@ -70,11 +80,11 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL     &kp N1    &kp N2     &kp N3   &kp N4     &kp N5 &tog 2                                                                                    &mo 4         &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
-        &kp TAB       &kp Q     &kp W      &kp F    &kp P      &kp G  &kp LC(C)                                                                                 &macro_logout &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
-        &at LCTRL ESC &kp A     &kp R      &kp S    &kp T      &kp D  &kp LC(V)                  &at LALT ESC &kp LGUI &kp LALT  &at RALT ESC                   &tog 1        &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
-        &kp LSHFT     &kp Z     &kp X      &kp C    &kp V      &kp B                                          &kp HOME &kp PG_UP                                              &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 3         &kp GRAVE &caps_word &kp LEFT &kp RIGHT                   &at LSHIFT BSPC  &at LGUI DEL &kp END  &kp PG_DN &at LALT ENTER &at LCTRL SPACE                      &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+        &kp GRAVE     &kp N1     &kp N2     &kp N3   &kp N4     &kp N5 &tog 2                                                                                    &mo 4           &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &at EQUAL MINUS
+        &kp TAB       &kp Q      &kp W      &kp F    &kp P      &kp G  &kp LC(C)                                                                                 &macro_terminal &kp J  &kp L  &kp U     &kp Y    &kp SEMI &kp BSLH
+        &at LCTRL ESC &kp A      &kp R      &kp S    &kp T      &kp D  &kp LC(V)                  &at LALT ESC &kp LGUI &kp LALT  &at RALT ESC                   &tog 1          &kp H  &kp N  &kp E     &kp I    &kp O    &kp SQT
+        &kp LSHFT     &kp Z      &kp X      &kp C    &kp V      &kp B                                          &kp HOME &kp PG_UP                                                &kp K  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
+        &mo 3         &kp DOWN   &kp UP     &kp LEFT &kp RIGHT                   &at LSHIFT BSPC  &at LGUI DEL &kp END  &kp PG_DN &at LALT ENTER &at LCTRL SPACE                        &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
       >;
     };
     qwerty {
@@ -97,11 +107,11 @@
     };
     fn {
       bindings = <
-        &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                          &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &trans &trans &trans &trans &trans &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans                     &trans &trans                     &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans              &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
+        &kp F1 &kp F2     &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                          &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
+        &trans &trans     &trans &trans &trans &trans &none                                           &none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans     &trans &trans &trans &trans &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans     &trans &trans &trans &trans                     &trans &trans                     &trans &trans &trans &trans  &trans  &trans
+        &trans &caps_word &trans &trans &trans              &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;
     };
     mod {

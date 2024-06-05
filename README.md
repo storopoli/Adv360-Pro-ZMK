@@ -19,7 +19,7 @@ Right:
 - `Space` on thumb is: `Space` (tap) and left `Ctrl` (hold)
 - `Enter` on thumb is: `Enter` (tap) and left `Alt` (hold)
 - `Esc` on thumb is: `Esc` (tap) and right `Alt` (hold)
-- Macro `3`: `Crtl` + `Shift` + `x` (lock screen)
+- Macro `3`: `Crtl` + `Alt` + `b` (launch terminal)
 - Macro `4`: QWERTY layer
 
 ## Modifying the keymap
@@ -183,4 +183,5 @@ Further support resources can be found on Kinesis.com:
 - <https://kinesis-ergo.com/support/kb360pro/#manuals>
 
 In the event of a hardware issue it may be necessary to open a support ticket directly with Kinesis as opposed to a GitHub issue in this repository.
+
 - <https://kinesis-ergo.com/support/kb360pro/#ticket>
