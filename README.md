@@ -11,15 +11,15 @@ Left:
 - `Esc` on 5th index is: `Esc` (tap) and left `Ctrl` (hold)
 - `Caps` is caps_word
 - `Esc` on thumb is: `Esc` (tap) and left `Alt` (hold)
-- Macro `1`: `Crtl` + `c` (copy)
-- Macro `2`: `Crtl` + `v` (paste)
+- Macro `1`: `Cmd` + `c` (copy on macOS)
+- Macro `2`: `Cmd` + `v` (paste on macOS)
 
 Right:
 
 - `Space` on thumb is: `Space` (tap) and left `Ctrl` (hold)
 - `Enter` on thumb is: `Enter` (tap) and left `Alt` (hold)
 - `Esc` on thumb is: `Esc` (tap) and right `Alt` (hold)
-- Macro `3`: `Crtl` + `Alt` + `b` (launch terminal)
+- Macro `3`: `Cmd` + `Ctrl` + `q` (lock screen on macOS)
 - Macro `4`: QWERTY layer
 
 ## Modifying the keymap
